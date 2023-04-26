@@ -1,4 +1,4 @@
-#调用图片视频以及摄像头
+#Calling image, video and camera by using cv2 library.
 import cv2
 
 #Webcam
@@ -16,9 +16,9 @@ while True:
 #Video
 # cap = cv2.VideoCapture("res/test_video.mp4")
 # while True:
-#     success, img = cap.read() #将视频每一帧存入img变量且如果成功返回success
+#     success, img = cap.read() #Store the video file frame by frame to img variable.
 #     cv2.imshow("Video",img)
-#     if cv2.waitKey(1) & 0xFF == ord('q'):
+#     if cv2.waitKey(1) & 0xFF == ord('q'): #If press q then break.
 #         break
 
 #Image
